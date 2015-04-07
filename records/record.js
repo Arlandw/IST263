@@ -68,25 +68,25 @@ $(document).ready(function() {
     }); //end left click
 
 
-    var total2 = 3
-    var current2 = 1
+    var total2 = 3;
+    var current2 = 1;
 
     $(".eventleft").click(function() {
         if (current2 > 1) {
             $(".eventslidebox").animate({
-                left: "+=1000"
-            }, 500)
-            current2--
+                left: "+=1040"
+            }, 500);
+            current2--;
         }
-    })
+    });
     $(".eventright").click(function() {
         if (current2 < total2) {
             $(".eventslidebox").animate({
-                left: "-=1000"
-            }, 500)
-            current2++
+                left: "-=1040"
+            }, 500);
+            current2++;
         }
-    })
+    });
 
 
 

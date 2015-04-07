@@ -23,7 +23,7 @@
 }
 
 body {
-    background-color: #FF5A00;
+    background-color: black;
     padding: 0px;
     margin: 0px;
 }
@@ -294,6 +294,7 @@ section {
     text-transform: uppercase;
     float: left;
     margin: 0 auto;
+    width: 235px;
 }
 
 .lowereventbox {}
@@ -330,7 +331,7 @@ section {
     background-color: black;
     font-family: 'quanticobold_italic';
     color: #FF5A00;
-    bottom: 50px;
+    bottom: 55px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -354,6 +355,7 @@ section {
     border-width: 2px;
     text-transform: uppercase;
     left: 52px;
+    padding: 2px;
 }
 
 .eventsbinder {
@@ -372,8 +374,176 @@ section {
 .eventslide2,
 .eventslide3 {
     float: left;
+    width: 1040px;
+}
+
+/*End Events Slider */
+/* Start Media Grabs section */
+#three{
+    width:100%;
+    background-color: #2E3138;
+}
+.sectiontitle{
+    width: 1000px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'quanticobold_italic';
+    color: white;
+}
+.mediaslot{
+    background-color: #000;
+    height:450;
+    width:150px;
+    float: left;
+    margin-left: 16px;
+}
+.mediaslot:hover{
+    background-color: #FF5A00;
+    height:515px;
+    cursor: pointer;
+}
+
+.mediatitle{
+    font-family: 'quanticobold_italic';
+    font-size: 22px;
+    color: #fff;
+    padding:30px 10px 30px 15px;
+}
+
+/*End Media Grabs section */
+/*Start Industry News Section */
+#four{
+    width:100%;
+    height: 580px;
+    background-color: #2E3138;
+}
+#four .sectiontitle{
     width: 1000px;
 }
+#four img{
+    position: absolute;
+}
+.featurelargeimage{
+    float:left;
+}
+.feature{
+    font-family: 'quanticobold_italic';
+    width:105;
+    color: #FF5A00;
+    background-color: #fff;
+    font-size:24px;
+    position: relative;
+    padding: 5px 5px 5px 5px;
+}
+.edm{
+    font-family: 'quanticobold_italic';
+    color: #fff;
+    width: 300px;
+    background-color:#FF5A00;
+    font-size:38px;
+    position: relative;
+    padding: 15px 0px 15px 40px;
+    line-height: 32px;
+    margin-top: 250px;
+}
+.stories{
+    width: 490px;
+    margin-left: 500px;
+}
+.storylightgrey{
+   margin-left: 20px;
+   font-family: 'verb_light';
+   font-size: 16px;
+   color: #fff;
+   padding:10px 60px 10px 20px;
+   width:420px;
+   height: 85px;
+   background-color: #25282F;
+}
+.storydarkgrey{
+   margin-left: 20px;
+   font-family: 'verb_light';
+   font-size: 16px;
+   color: #fff;
+   padding:10px 60px 10px 20px;
+   width:420px;
+   height: 85px;
+   background-color: #1E1F23;
+}
+
+.dates{
+    font-size: 14px;
+    color: #515257;
+    margin: 10px 0px 5px 0px;
+}
+.storylightgrey:hover{
+    color: #FF5A00;
+    cursor: pointer;
+
+}
+.storydarkgrey:hover{
+    color: #FF5A00;
+    cursor: pointer;
+
+}
+
+/*End Industry News Section */
+/*Start Listen Now Section */
+
+#five{
+    width:100%;
+    height: 700px;
+    background-color: #000;
+}
+#five .sectiontitle{
+    width: 1000px;
+    margin-bottom: 50px;
+}
+.listennowbox{
+    float:left;
+}
+.listennowbox img{
+    float: left;
+    margin:0px 1px 1px 0px;
+    position: relative;
+}
+.listennow{
+    font-family: 'quanticobold_italic';
+    color: #fff;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 90, 0, 0.5);
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    z-index: 102;
+    opacity: 0;
+}
+.listennowtext{
+    float:left;
+    color:#fff;
+    margin-top:45%;
+    border-style:solid;
+    border-width: 2px;
+        left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.listennowbox:hover .listennow{
+    opacity: 1;
+    z-index: 102;
+    cursor: pointer;
+}
+.listennowbox:hover img{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*End Listen Now Section */
+
 
 #smalltoppicture {
     margin-bottom: 20px;
@@ -386,14 +556,17 @@ section {
 
 #two {
     background-color: #ffffff;
+    height: 660px;
 }
 
 #three {
     background: url(images/bg_media.jpg) no-repeat center top;
+    height: 750px;
 }
 
 #four {
     background: #000000;
+    height: 750px;
 }
 
 #five {
