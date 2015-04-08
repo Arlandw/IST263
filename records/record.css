@@ -304,9 +304,7 @@ section {
     width: 235px;
 }
 
-.lowereventbox {}
-
-.textoverartists {
+.eventoverlaytext {
     position: absolute;
     font-size: 28px;
     font-weight: lighter;
@@ -323,14 +321,14 @@ section {
     top: 50px;
 }
 
-.textoverartists p {
+.eventoverlaytext p {
     font-family: 'verb_light';
-    font-size: 22px;
+    font-size: 20px;
     text-transform: lowercase;
-    line-height: 18px;
+    line-height: 20px;
 }
 
-.datecircle {
+.circle {
     height: 90px;
     width: 90px;
     position: absolute;
@@ -398,20 +396,20 @@ section {
     font-family: 'quanticobold_italic';
     color: white;
 }
-.mediaslot{
+.artistcard{
     background-color: #000;
     height:450;
     width:150px;
     float: left;
     margin-left: 16px;
 }
-.mediaslot:hover{
+.artistcard:hover{
     background-color: #FF5A00;
     height:515px;
     cursor: pointer;
 }
 
-.mediatitle{
+.artisttitle{
     font-family: 'quanticobold_italic';
     font-size: 22px;
     color: #fff;
