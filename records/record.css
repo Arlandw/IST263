@@ -163,23 +163,25 @@ section {
 /* End slider classes */
 /* Artist Slider box */
 
-.masterartistsbox {
+
+
+.slidecontainer {
     margin: 20px;
     float: left;
     position: relative;
 }
 
-.largeartistsbox {
+.heroartistbox {
     float: left;
     position: relative;
 }
 
-.largeartistsbox img {
+.heroartistbox img {
     position: relative;
     margin-right: 20px;
 }
 
-.largeartistboxtext {
+.heroartisttext {
     position: absolute;
     z-index: 1;
     bottom: 0px;
@@ -205,6 +207,10 @@ section {
 .smallerartistsbox img {
     height: 220px;
     width: 320px;
+}
+
+#smalltoppicture {
+    margin-bottom: 20px;
 }
 
 .smallartistboxtext1 {
@@ -278,14 +284,14 @@ section {
     margin-right: 20px;
 }
 
-.eventorangebox {
+.eventbackground {
     background-color: #FF5A00;
     width: 235px;
     height: 310px;
     position: relative;
 }
 
-.eventorangeboxdate {
+.eventdate {
     font-size: 16px;
     text-align: center;
     color: #fff;
@@ -587,9 +593,7 @@ section {
 /*End Contact us Section */
 
 
-#smalltoppicture {
-    margin-bottom: 20px;
-}
+
 
 #one {
     background: url(images/bg_top.jpg) no-repeat center top;
