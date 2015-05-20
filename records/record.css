@@ -102,9 +102,9 @@ section {
 }
 
 .active {
-    background-color: #FF5A00;
+    background-color: #fff;
+    color: #FF5A00;
 }
-/* Slider classes */
 
 .slide {
     width: 1040px;
@@ -160,10 +160,6 @@ section {
 .right:hover {
     background-color: #FF5A00;
 }
-/* End slider classes */
-/* Artist Slider box */
-
-
 
 .slidecontainer {
     margin: 20px;
@@ -234,8 +230,6 @@ section {
     bottom: 0px;
     text-transform: uppercase;
 }
-/*End Artist Slider box */
-/*Start Events Slider box */
 
 #two {
     width: 100%;
@@ -382,13 +376,12 @@ section {
     width: 1040px;
 }
 
-/*End Events Slider */
-/* Start Media Grabs section */
-#three{
-    width:100%;
+#three {
+    width: 100%;
     background-color: #2E3138;
 }
-.sectiontitle{
+
+.sectiontitle {
     width: 1000px;
     margin-bottom: 40px;
     font-size: 40px;
@@ -396,130 +389,140 @@ section {
     font-family: 'quanticobold_italic';
     color: white;
 }
-.artistcard{
+
+.artistcard {
     background-color: #000;
-    height:450;
-    width:150px;
+    height: 450;
+    width: 150px;
     float: left;
     margin-left: 16px;
 }
-.artistcard:hover{
+
+.artistcard:hover {
     background-color: #FF5A00;
-    height:515px;
+    height: 515px;
     cursor: pointer;
 }
 
-.artisttitle{
+.artisttitle {
     font-family: 'quanticobold_italic';
     font-size: 22px;
     color: #fff;
-    padding:30px 10px 30px 15px;
+    padding: 30px 10px 30px 15px;
 }
-
 /*End Media Grabs section */
 /*Start Industry News Section */
-#four{
-    width:100%;
+
+#four {
+    width: 100%;
     height: 580px;
     background-color: #2E3138;
 }
-#four .sectiontitle{
+
+#four .sectiontitle {
     width: 1000px;
 }
-#four img{
+
+#four img {
     position: absolute;
 }
-.featurelargeimage{
-    float:left;
+
+.featurelargeimage {
+    float: left;
 }
-.feature{
+
+.feature {
     font-family: 'quanticobold_italic';
-    width:105;
+    width: 105;
     color: #FF5A00;
     background-color: #fff;
-    font-size:24px;
+    font-size: 24px;
     position: relative;
     padding: 5px 5px 5px 5px;
 }
-.edm{
+
+.herotitle {
     font-family: 'quanticobold_italic';
     color: #fff;
     width: 300px;
-    background-color:#FF5A00;
-    font-size:38px;
+    background-color: #FF5A00;
+    font-size: 38px;
     position: relative;
     padding: 15px 0px 15px 40px;
     line-height: 32px;
     margin-top: 250px;
 }
-.stories{
+
+.stories {
     width: 490px;
     margin-left: 500px;
 }
-.storylightgrey{
-   margin-left: 20px;
-   font-family: 'verb_light';
-   font-size: 16px;
-   color: #fff;
-   padding:10px 60px 10px 20px;
-   width:420px;
-   height: 85px;
-   background-color: #25282F;
-}
-.storydarkgrey{
-   margin-left: 20px;
-   font-family: 'verb_light';
-   font-size: 16px;
-   color: #fff;
-   padding:10px 60px 10px 20px;
-   width:420px;
-   height: 85px;
-   background-color: #1E1F23;
+
+.storylightgrey {
+    margin-left: 20px;
+    font-family: 'verb_light';
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 60px 10px 20px;
+    width: 420px;
+    height: 85px;
+    background-color: #25282F;
 }
 
-.dates{
+.storydarkgrey {
+    margin-left: 20px;
+    font-family: 'verb_light';
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 60px 10px 20px;
+    width: 420px;
+    height: 85px;
+    background-color: #1E1F23;
+}
+
+.dates {
     font-size: 14px;
     color: #515257;
     margin: 10px 0px 5px 0px;
 }
-.storylightgrey:hover{
+
+.storylightgrey:hover {
     color: #FF5A00;
     cursor: pointer;
-
 }
-.storydarkgrey:hover{
+
+.storydarkgrey:hover {
     color: #FF5A00;
     cursor: pointer;
-
 }
 
-/*End Industry News Section */
-/*Start Listen Now Section */
-
-#five{
-    width:100%;
+#five {
+    width: 100%;
     height: 700px;
     background-color: #000;
-
 }
-#five .sectiontitle{
+
+#five .sectiontitle {
     width: 1000px;
     margin-bottom: 50px;
 }
 
-.listenborder{
+.listenborder {
     border: 20px solid rgba(0, 0, 0, 0.7);
-    float:left;
+    float: left;
     width: 996px;
 }
-.listennowbox{
-    float:left;
+
+.listennowbox {
+    float: left;
 }
-.listennowbox img{
+
+.listennowbox img {
     float: left;
     position: relative;
 }
-.listennow{
+
+.listennow {
     font-family: 'quanticobold_italic';
     color: #fff;
     width: 249px;
@@ -530,68 +533,62 @@ section {
     text-align: center;
     z-index: 102;
     opacity: 0;
-
 }
-.listennowtext{
+
+.listennowtext {
     position: relative;
-    float:left;
-    color:#fff;
-    margin-top:40%;
-    border-style:solid;
+    float: left;
+    color: #fff;
+    margin-top: 40%;
+    border-style: solid;
     border-width: 2px;
     margin-left: 30px;
     padding: 2px;
-
 }
-.listennowbox:hover .listennow{
+
+.listennowbox:hover .listennow {
     opacity: 1;
     z-index: 102;
     cursor: pointer;
 }
-.listennowbox:hover img{
+
+.listennowbox:hover img {
     opacity: 1;
     cursor: pointer;
 }
 
-/*End Listen Now Section */
-/*Start Contact us Section */
-
-.contacts{
+.contactinfo {
     padding: 80px 0px 0px 10px;
-    width:350;
+    width: 350;
     font-family: 'verb_light';
     font-size: 17px;
-    color:white;
+    color: white;
 }
-.logo1{
+
+.logo1 {
     font-size: 28px;
     font-family: 'verb_extrabold';
-    float:left;
+    float: left;
     color: white;
 }
-.contactlogo{
-    float:left;
-    margin:15px 10px 10px 10px;
+
+.contactlogo {
+    float: left;
+    margin: 15px 10px 10px 10px;
     color: white;
 }
-.contactlogo span{
-    color:#FF5A00;
+
+.contactlogo span {
+    color: #FF5A00;
 }
-.contactlogobox{
+
+.contactlogobox {
     background-color: #FF5A00;
     float: left;
-    color:#fff;
-    margin:10px 82px 10px 0px;
-    padding:5px 5px 5px 5px;
+    color: #fff;
+    margin: 10px 82px 10px 0px;
+    padding: 5px 5px 5px 5px;
 }
-
-
-
-
-/*End Contact us Section */
-
-
-
 
 #one {
     background: url(images/bg_top.jpg) no-repeat center top;
